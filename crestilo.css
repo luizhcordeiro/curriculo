@@ -1,3 +1,4 @@
+/*********** formatações gerais ***************/
 *{
 	font-family:arial,verdana,sans-serif;
 	padding:0;
@@ -15,13 +16,15 @@ body{
 }
 #wrap{
 	margin: 30px;
-	width: 900px;
+	width: 950px;
 	height: 1200px;
+	line-height: 1.3;
+	font-size: 1.1em;
 	overflow: hidden;
 }
 article{
-	float: left;
-	width: 570px;
+	float: right;
+	width: 620px;
 	height: 90%;
 	padding: 10px;
 }
@@ -48,22 +51,56 @@ h1{
 h2{
 	font-family: "Trebuchet MS", Courier, sans-serif;
 }
+/* H2 com o cargo */
 #ocupation{
 	font-family: Perpetua, "Times New Roman", serif;
 	margin-left: 10px;
 }
+/******** toda parte dentro do artigo - escolaridade/cargos/certificados *********/
 .group{
 	margin-bottom: 15px;
+	padding: 20px 0px;
+}
+.group span{
+	font-weight: 550;
 }
 .subgroup{
 	margin: 2px 1px;
+	padding: 10px 5px; 
+		
 }
+.subgroup p{
+	margin-left: 5px;
+}
+	/*formação*/
+#formation h3{
+	color: #B0E0E6;
+	font-style: italic;
+}
+	/*Trabalhos*/
+#job h3{
+	color: #B0E0E6;
+}
+	/*certificados*/
+#certificate h3{
+	font-size: 1.1em; 
+}
+#certificate div{
+	padding-bottom: 0px;
+}
+	/* outras formações e trabalhos*/
+.other{
+	padding: 0px;
+}
+/******* barra lateral com os contatos, habilidades e qualificações ********/
 .ltbar{
-	line-height: 1.3;
 	margin-bottom: 70px;
 }
+.ltbar h2{
+	text-align: center;
+}
 .ltbar a{
-	color: #4B0082
+	color: #4B0082;
 }
 #contact{
 	padding: 30px 0px;
@@ -75,7 +112,7 @@ h2{
 	margin-top: 5px
 }
 #ability{
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 }
 
 #ability h4{
