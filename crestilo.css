@@ -22,7 +22,7 @@ body{
 	overflow: hidden;
 }
 
-article{
+main{
 	float: right;
 	width: 620px;
 	height: 90%;
@@ -45,7 +45,7 @@ footer{
 }
 h1{
 	font-family: Didot, "Times New Roman", serif;
-	font-size: 4em;
+	font-size: 3.5em;
 	margin-left: 15px;
 }
 h2{
@@ -56,9 +56,11 @@ h2{
 	font-family: Perpetua, "Times New Roman", serif;
 	margin-left: 10px;
 }
-/******** toda parte dentro do artigo - escolaridade/cargos/certificados *********/
-.group{
 
+p, a { color: #0d0d0f; }
+
+/******** toda parte dentro do main - escolaridade/cargos/certificados *********/
+.group{
 	padding: 10px 0px;
 }
 .group span{
@@ -89,9 +91,20 @@ h2{
 #certificate div{
 	padding-bottom: 0px;
 }
+#certificate h4{
+	font-size: 0.9em;
+}
+#certificate p{
+	font-size: 0.9em;
+}
+
 	/* outras formações e trabalhos*/
 .other{
 	padding: 0px;
+}
+
+.other p {
+	font-size: 0.8em;
 }
 /******* barra lateral com os contatos, habilidades e qualificações ********/
 .ltbar{

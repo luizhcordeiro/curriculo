@@ -1,0 +1,61 @@
+* {
+text-shadow:none !important;
+filter:none !important;
+-ms-filter:none !important;
+color:#000 !important;
+}
+
+main, aside{
+	float: none;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+header{
+	padding: 10px 5px;
+}
+
+
+/******* barra lateral com os contatos, habilidades e qualificações ********/
+
+.ltbar {
+	float: none;
+	width: 85%;
+	margin: 5px auto;
+	text-align: justify;
+}
+
+.ltbar h2{
+	text-align: left;
+}
+
+#contact{
+	padding: 0;
+}
+
+#contact p{
+	display: inline-block;
+}
+
+#ability{
+	margin-bottom: 20px;
+}
+
+.hab h4, .hab p {
+	display: inline-block;
+}
+
+/******** toda parte dentro do main - escolaridade/cargos/certificados *********/
+
+.group {
+	width: 95%;
+}
+
+.subgroup{
+	padding:5px; 
+}
+
+#certificate h4, #certificate p {
+	display: inline-block;
+}
