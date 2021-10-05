@@ -1,7 +1,7 @@
 # curriculo
 Como forma de me manter sempre atualizado eu resolvi programar o meu próprio Curriculo. 
 
-#fase1 
+# fase1 
 Criei uma versão meramente pra poder imprimi-la depois 
 
 #fase2
