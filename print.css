@@ -80,7 +80,11 @@ aside{
 
 #printImg{
 	display: block;
-	float: left;
+	float: left;	
+}
+
+#printImg img {
+	width: 200px;
 }
 
 #printImg p{
