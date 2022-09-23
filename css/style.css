@@ -7,33 +7,32 @@
 	list-style-type:none;
 }
 
-
-
 body{font-family:Calibri, sans-serif; }
 
 #wrap{
-	width: 1100px;
-	margin: 15px auto;
+	max-width: 1100px;
+	width: 100%;
+	margin: 1.5rem auto;
 	line-height: 1.3;
 	font-size: 1.1em;
 	overflow: hidden;
 }
 
 header{
-	padding: 30px 15px;
+	padding: 3rem 1.5rem;
 }
 
 main{
 	float: right;
-	width: 65%;
-	padding: 10px;
+	width: 63%;
+	padding: 1rem;
 	margin: 0 auto;
 }
 
 aside{
 	float: left;
 	width: 30%;
-	max-width: 350px;
+	max-width: 320px;
 	padding: 10px;
 	background-color: #E0F2F7;
 }
@@ -47,7 +46,7 @@ footer {
 h1{
 	font-family: Didot, "Times New Roman", serif;
 	font-size: 3.5em;
-	margin-left: 15px;
+	margin-left: 1.5rem;
 }
 h2{
 	font-family: "Trebuchet MS", Courier, sans-serif;
@@ -55,7 +54,7 @@ h2{
 /* H2 com o cargo */
 #ocupation{
 	font-family: Perpetua, "Times New Roman", serif;
-	margin-left: 10px;
+	margin-left: 1rem;
 }
 
 p, a { color: #0d0d0f; }
@@ -64,18 +63,19 @@ p, a { color: #0d0d0f; }
 .group{
 	padding: 10px 0px;
 }
-.group span{
-	font-weight: 550;
-}
+	.group strong{
+		font-weight: 550;
+	}
 .subgroup{
 	margin: 2px 1px;
-	padding: 10px 5px; 
+	padding: 1rem 0.5rem; 
 		
 }
-.subgroup p{
-	margin-left: 5px;
-	text-align: justify;
-}
+	.subgroup p{
+		margin-left: 0.5rem;
+		text-align: justify;
+	}
+	
 	/*formação*/
 #formation h3{
 	color: #B0E0E6;
@@ -109,19 +109,19 @@ p, a { color: #0d0d0f; }
 }
 /******* barra lateral com os contatos, habilidades e qualificações ********/
 .ltbar{
-	padding: 15px 0;
+	padding: 1.5rem 0;
 }
-.ltbar h2{
-	text-align: center;
-}
-.ltbar a{
-	color: #4B0082;
-}
+	.ltbar h2{
+		text-align: center;
+	}
+	.ltbar a{
+		color: #4B0082;
+	}
 #contact span{
 	font-weight: 550;
 }
 #contact p{
-	margin-top: 5px; 
+	margin-top: 0.5rem; 
 }
 
 .hideImg{
@@ -133,14 +133,18 @@ p, a { color: #0d0d0f; }
 }
 
 #ability h4{
-	margin-top: 10px
+	margin-top: 1rem
 }	
 
 .fixed {
 	position: fixed;
 	top: 0;
-}
+	}
 
+.skills span:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
 /******* Footer ********/
 
 #printButton{
